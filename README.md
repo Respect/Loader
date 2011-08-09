@@ -3,9 +3,21 @@ Respect\Loader
 
 A simple, minimalist class loader that implements the PSR-0 spec.
 
-Sample usage:
+Configuration
+-------------
+
+Respect\Loader needs the include_path properly configured. Add your library to
+the include_path directive in php.ini or set up in runtime like this:
 
     set_include_path('/path/to/library'. PATH_SEPARATOR . get_include_path());
+
+See http://php.net/include_path for more info.
+
+Usage
+-----
+
+Add this single line one single time to your project:
+
     spl_autoload_register(include 'Respect/Loader.php');
 
 License Information
