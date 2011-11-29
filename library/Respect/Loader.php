@@ -11,11 +11,15 @@ class Loader
         if (false !== strpos(end($fileParts), '_'))
             array_splice($fileParts, -1, 1, explode('_', current($fileParts)));
 
-        require implode(DIRECTORY_SEPARATOR, $fileParts) . '.php';
+        $fileName = implode(DIRECTORY_SEPARATOR, $fileParts) . '.php';
+        
+        if (stream_resolve_include_path($fileName))
+            require $fileName;
     }
 }
 
-return new Loader;
+if (!defined('RESPECT_DO_NOT_RETURN_AUTOLOADER'))
+    return new Loader;
 
 /**
  * LICENSE
