@@ -25,6 +25,11 @@ Add this single line one single time to your project:
 <?php
 spl_autoload_register(include 'Respect/Loader.php');
 ```
+    
+Installation
+------------
+
+Please use PEAR. More instructions on the [Respect PEAR channel](http://respect.li/pear)
 
 Advanced Usage
 --------------
