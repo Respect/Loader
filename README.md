@@ -1,6 +1,6 @@
 Respect\Loader
 ==============
-
+ 
 A simple, minimalist class loader that implements the PSR-0 spec.
 
 Configuration
