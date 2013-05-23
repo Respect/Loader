@@ -1,5 +1,5 @@
 {
-    "name": "Respect\/Loader",
+    "name": "respect\/loader",
     "description": "Minimalistic Autoloader",
     "version": "0.2.0",
     "type": "library",
