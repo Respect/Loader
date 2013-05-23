@@ -1,0 +1,20 @@
+{
+    "name": "Respect\/Loader",
+    "description": "Minimalistic Autoloader",
+    "version": "0.2.0",
+    "type": "library",
+    "time": "2012-11-25 21:20:18",
+    "homepage": "",
+    "license": "BSD Style",
+    "authors": [
+        {
+            "name": "Alexandre Gaigalas",
+            "email": "alexandre@gaigalas.net"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Respect\\Loader": "library\/"
+        }
+    }
+}
