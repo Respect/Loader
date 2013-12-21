@@ -1,6 +1,6 @@
-Respect\Loader
+Respect\Loader [![Build Status](https://secure.travis-ci.org/Respect/Loader.png)](http://travis-ci.org/Respect/Loader)
 ==============
- 
+
 A simple, minimalist class loader that implements the PSR-0 spec.
 
 Configuration
