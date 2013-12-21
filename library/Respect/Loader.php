@@ -4,7 +4,7 @@ namespace Respect;
 
 class Loader
 {
-    public function __invoke($className) 
+    public function findFileFromClassName($className)
     {
         $fileParts = explode('\\', ltrim($className, '\\'));
 
@@ -13,8 +13,14 @@ class Loader
 
         $fileName = implode(DIRECTORY_SEPARATOR, $fileParts) . '.php';
         
-        if (stream_resolve_include_path($fileName))
-            require $fileName;
+        if ($fileName = stream_resolve_include_path($fileName))
+            return $fileName;
+
+    }
+    
+    public function __invoke($className) 
+    {
+        require $this->findFileFromClassName($className);
     }
 }
 

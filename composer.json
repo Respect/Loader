@@ -1,17 +1,19 @@
 {
-    "name": "respect\/loader",
-    "description": "Minimalistic Autoloader",
-    "version": "0.2.0",
+    "name": "Respect/Loader",
+    "description": "Minimalistic Autoloader, PSR-0 complient.",
     "type": "library",
-    "time": "2012-11-25 21:20:18",
-    "homepage": "",
+    "keywords": ["PSR-0", "autoload", "autoloader", "loader"],
+    "homepage": "http://respect.li",
     "license": "BSD Style",
     "authors": [
         {
-            "name": "Alexandre Gaigalas",
-            "email": "alexandre@gaigalas.net"
+            "name": "Respect/Loader Constributors",
+            "homepage": "http://github.com/Respect/Loader/contributors"
         }
     ],
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
     "autoload": {
         "psr-0": {
             "Respect\\Loader": "library\/"

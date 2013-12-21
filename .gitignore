@@ -2,6 +2,7 @@
 .project
 .settings/
 tests/reports
+vendor
 pirum
 nbproject
 *.7z
