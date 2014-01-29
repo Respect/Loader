@@ -1,5 +1,7 @@
-Respect\Loader [![Build Status](https://secure.travis-ci.org/Respect/Loader.png)](http://travis-ci.org/Respect/Loader)
+Respect\Loader 
 ==============
+
+[![Build Status](https://secure.travis-ci.org/Respect/Loader.png)](http://travis-ci.org/Respect/Loader) [![Latest Stable Version](https://poser.pugx.org/respect/loader/v/stable.png)](https://packagist.org/packages/respect/loader) [![Total Downloads](https://poser.pugx.org/respect/loader/downloads.png)](https://packagist.org/packages/respect/loader) [![Latest Unstable Version](https://poser.pugx.org/respect/loader/v/unstable.png)](https://packagist.org/packages/respect/loader) [![License](https://poser.pugx.org/respect/loader/license.png)](https://packagist.org/packages/respect/loader)
 
 A simple, minimalist class loader that implements the PSR-0 spec.
 
